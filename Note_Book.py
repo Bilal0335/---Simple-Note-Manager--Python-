@@ -50,11 +50,11 @@ def main():
 
     while True:
         print("\n📌 Menu:")
-        print("1️⃣ Create Note")
-        print("2️⃣ Read Note")
-        print("3️⃣ Append Note")
-        print("4️⃣ Edit Note")
-        print("5️⃣ Exit")
+        print(f"1️  Create Note")
+        print(f"2️  Read Note")
+        print(f"3️  Append Note")
+        print(f"4️  Edit Note")
+        print(f"5️  Exit")
 
         try:
             choice = int(input("Enter your choice: "))
